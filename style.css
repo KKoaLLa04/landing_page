@@ -1,0 +1,758 @@
+/* ----------------------GLOBAL------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* width: 70%; */
+  /* margin: auto; */
+  font-size: 20px;
+  color: #5a5a5a;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+/* --------------------userable component ------------------*/
+h3 {
+  font-size: 36px;
+  color: #000066;
+  text-align: center;
+  margin: 23px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ---------------------------------------------------- */
+/* ---------------------LOGO-NAVBAR------------------------- */
+/* ---------------------------------------------------- */
+
+.logo__navbar {
+  width: 100%;
+  /* position: fixed; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 15%; */
+  background-color: #ffffff;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  margin-top: -45px;
+  margin-bottom: -50px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  /* margin-top: 10%; */
+  margin: 10px 0;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000066;
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------- */
+/* ---------------------HEADER------------------------- */
+/* ---------------------------------------------------- */
+
+header {
+  background-image: url(./img2/banner\ 1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 350px;
+  /* margin-top: 65px; */
+  /* background-attachment: fixed; */
+}
+
+/* ---------------------------------------------------- */
+/* ---------------------PROBLEM------------------------- */
+/* ---------------------------------------------------- */
+
+.problem {
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+
+.problem h3 {
+  font-size: 36px;
+  color: #000066;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.problem__content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.problem__item {
+  max-width: 245px;
+  height: 245px;
+  text-align: center;
+}
+
+.problem__item p {
+  color: #000066;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 250px;
+}
+
+/* .problem__item img {
+  max-width: 245px;
+  min-height: 245px;
+  border-radius: 50%;
+  border: 1px solid #000066;
+  background-image: center;
+  margin: 0 13px;
+  box-shadow: 8px 1px #5CCEF2;
+} */
+
+.problem__item:nth-child(1) {
+  width: 25%;
+  text-align: center;
+  background-image: url(./img2/lão\ hóa.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #5ccef2;
+  box-shadow: 8px 2px #5ccef2;
+}
+
+.problem__item:nth-child(2) {
+  width: 25%;
+  text-align: center;
+  background-image: url(./img/nếp\ nhăn.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #5ccef2;
+  box-shadow: 8px 2px #5ccef2;
+}
+
+.problem__item:nth-child(3) {
+  width: 25%;
+  text-align: center;
+  background-image: url(./img/lỗ\ chân\ lông\ to.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #5ccef2;
+  box-shadow: 8px 2px #5ccef2;
+}
+
+.problem__item:nth-child(4) {
+  width: 25%;
+  text-align: center;
+  background-image: url(./img/khô\ ráp.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #5ccef2;
+  box-shadow: 8px 2px #5ccef2;
+}
+
+/* ---------------------------------------------------- */
+/* ---------------------RESULT------------------------- */
+/* ---------------------------------------------------- */
+
+/* .result__background {
+  background-image: url(./img/ngmau.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 550px;
+} */
+
+.result {
+  width: 100%;
+  background-image: url(./img2/banner\ 2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 350px;
+  /* background-attachment: fixed; */
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------REASON------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.reason {
+  width: 100%;
+  margin: 0px auto;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  background-color: #e0eef0;
+}
+
+.reason__content {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  position: relative;
+}
+
+.reason__left {
+  background-image: url(./img2/z4160012323558_18021c50d9617fcf7d6f697c32f6d828.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 540px;
+  height: 160px;
+  transform: rotate(-90deg);
+  margin: 210px 0 0 50px;
+  position: absolute;
+}
+
+.reason__left hr {
+  background-color: #3e9de1;
+  margin-top: 163px;
+  border: none;
+}
+
+.reason__right {
+  /* position: absolute; */
+  margin-left: 435px;
+}
+
+.reason__head {
+  background-color: #ffffff;
+  width: 893px;
+  height: 52px;
+  border-bottom: 3px solid #3e9de1;
+  line-height: 52px;
+}
+
+.reason__head h3 {
+  color: #000066;
+  font-size: 28px;
+}
+
+.reason__item1 {
+  background-image: url(./img2/nguyên\ nhân\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid white;
+  text-align: justify;
+  color: #000066;
+  width: 893px;
+  height: 202px;
+  margin: 40px 0;
+}
+
+.reason__text1 {
+  padding-left: 293px;
+  padding-right: 167px;
+  /* padding: 61px 167px 33px 293px; */
+}
+
+.reason__text1 h4 {
+  padding-top: 20px;
+}
+
+.reason__text1 p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.reason__text1-mobile {
+  display: none;
+}
+
+.reason__item2 {
+  background-image: url(./img2/nguyên\ nhân\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid white;
+  text-align: justify;
+  color: #000066;
+  width: 893px;
+  height: 202px;
+}
+
+.reason__text2 {
+  padding-left: 183px;
+  padding-right: 277px;
+}
+
+.reason__text2 h4 {
+  padding-top: 20px;
+}
+
+.reason__text2 p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.reason__text2-mobile {
+  display: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------SOLUTION------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.solution {
+  /* position: relative; */
+}
+
+.solution {
+  background-image: url(./img2/banner\ 3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-attachment: fixed; */
+  height: 300px;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------PRODUCTS------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.product {
+  background-color: #e0eef0;
+  height: 1400px;
+}
+
+.product h3 {
+  margin: 0;
+  padding-top: 40px;
+}
+
+.product__background {
+  background-image: url(./img2/nuôi\ dưỡng\ và\ chăm\ sóc\ da.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 100%;
+  /* background-attachment: fixed; */
+  margin-top: 50px;
+  height: 576px;
+}
+
+.product h3::before {
+  content: "";
+  display: block;
+  border: 1px solid #3f73d9;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.product h3::after {
+  content: "";
+  display: block;
+  border: 1px solid #3f73d9;
+  width: 600px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.product__content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px #000000;
+}
+
+.product__item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.product__itemText {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  color: #000066;
+}
+
+.product__itemText::before {
+  content: "";
+  border: 1px solid #0000c9;
+  height: 46px;
+  margin-right: 4px;
+}
+
+.product__itemText1 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  color: #000066;
+}
+
+.product__text__right p {
+  text-align: right;
+}
+
+.product__text__right::after {
+  content: "";
+  border: 1px solid #0000c9;
+  height: 46px;
+  margin-left: 6px;
+}
+
+.product h3 {
+  position: relative;
+}
+
+.product h3 span {
+  position: absolute;
+  transform: translate(0px, -15px);
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------FEEDBACK------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.feedback {
+  margin-top: 100px;
+  background-color: #ffffff;
+  min-height: 240px;
+}
+
+.feedback h2 {
+  color: #000000;
+  margin-top: -50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.feedback p {
+  text-align: center;
+  color: #000066;
+}
+
+.feedback__content {
+  margin-left: 5%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.feedback__item {
+  width: 500px;
+  height: 115px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e0eef0;
+  margin-left: 165px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.feedback__item img {
+  min-width: 77px;
+  min-height: 83px;
+  max-height: 83px;
+  border-radius: 20px;
+}
+
+.feedback__text {
+  padding: 5px 20px;
+}
+.feedback__text h4 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.feedback__text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000066;
+  text-align: justify;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------FORM------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.form {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img2/bgForm.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 0;
+}
+/* ====================FORM LEFT================== */
+
+.form__left {
+  max-width: 300px;
+  text-align: right;
+}
+
+.form__left h3 {
+  font-size: 30px;
+  margin: 0;
+  text-align: right;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form__left h3:first-of-type {
+  margin-bottom: 10px;
+}
+
+.form__left h3:nth-child(3) {
+  margin-top: 40px;
+}
+
+.form__left p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* ====================FORM AMONG================== */
+.form__among {
+  margin-left: 50px;
+  min-width: 400px;
+  /* min-height: 550px; */
+  background-color: #e0eef0;
+  margin-top: -50px;
+  border-radius: 10px;
+  height: 475px;
+}
+
+.form__header {
+  background-color: #34b0c1;
+  text-align: center;
+  color: white;
+  height: 60px;
+  padding-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form__header h2 {
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form__input input {
+  display: block;
+  width: 80%;
+  margin: 25px auto;
+  margin-bottom: 0px;
+  height: 55px;
+  border: 2px solid #34b0c1;
+  border-radius: 10px;
+}
+
+.form__input span {
+  text-align: center;
+}
+
+.form__input form {
+  text-align: center;
+  margin: 50px auto;
+  padding-bottom: 20px;
+}
+
+.form__input button {
+  color: white;
+  background-color: #34b0c1;
+  border-radius: 6px;
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+/* ====================FORM RIGHT================== */
+
+.form__right {
+  margin-left: 50px;
+  max-width: 330px;
+  text-align: left;
+}
+
+.form__right h3 {
+  text-align: left;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form__right p {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.form__right button {
+  background-color: #34b0c1;
+  width: 240px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.form__right button i {
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+.form__right button p {
+  display: inline-block;
+  margin-top: 15px;
+  transition: all 0.5s;
+}
+
+.form__right button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------FOOTER------------------------------- */
+/* ------------------------------------------------------------------ */
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  min-height: 550px;
+  background-color: #ffffff;
+}
+
+footer > h4 {
+  margin-left: 10%;
+  color: #238cad;
+  padding-top: 30px;
+}
+
+footer h4 i {
+  color: #238cad;
+}
+
+footer hr {
+  width: 80%;
+  margin: 20px 10%;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.footer__item {
+  margin-bottom: 30px;
+  color: #238cad;
+}
+
+.footer__contact {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  color: #238cad;
+}
+
+.footer__text h5 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+}
+
+.footer__text p {
+  font-weight: 100;
+}
+
+.footer__social {
+  text-align: right;
+  margin-right: 30px;
+  color: #238cad;
+}
+
+.footer__social h6 {
+  color: #238cad;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.footer__social i {
+  font-size: 25px;
+  padding: 10px 5px;
+}
+
+/* =============================================================== */
+/* ===============================COMPANY========================= */
+/* =============================================================== */
+
+.company {
+  background-color: #e0eef0;
+  padding: 10px;
+  text-align: center;
+}
+
+.company h2 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: #000066;
+}
+
+/* =============================================================== */
+/* ===============================contactWithUs========================= */
+/* =============================================================== */
+
+/* =============================================================== */
+/* ===============================More ========================= */
+/* =============================================================== */
